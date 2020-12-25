@@ -1,0 +1,18 @@
+body {
+    background-color: #e1f4f3;
+    text-align: center;
+}
+
+<h1 style="color:black;">flight price predictor</h1>
+
+.navbar {
+    background-color: #333333;
+}
+
+a {
+    color: #f1f9f9;
+}
+
+a:hover {
+    color: #f0f0f0;
+  }
