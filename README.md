@@ -1,6 +1,8 @@
 # End to end flight price predictor
 
 In this project I created a web application that can predict fare of a flight. 
+![Screenshot (52)](https://user-images.githubusercontent.com/54037847/103127160-b1729200-46b6-11eb-85b5-5e3ffcf179cb.png)
+
 
 To check the application please do visit http://flightpricepredictor-env.eba-zf4qs6et.us-east-2.elasticbeanstalk.com/
 
