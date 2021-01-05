@@ -4,17 +4,17 @@ import sklearn
 import pickle
 import pandas as pd
 
-application = Flask(__name__)
-# model = pickle.load(open("flight_model.pkl", "rb"))
+app = Flask(__name__)
 
 
 
-@application.route('/')
+
+@app.route('/')
 @cross_origin()
 def home():
     return render_template('index.html')
 
-@application.route('/predict', methods=['GET', 'POST'])
+@app.route('/predict', methods=['GET', 'POST'])
 @cross_origin()
 def predict():
     if request.method =='POST':
@@ -275,5 +275,4 @@ def predict():
     return render_template("index.html")
 
 if __name__ == "__main__":
-    # application.run(debug=True)
-    application.run(host='127.0.0.1', port=5001, debug=True)
+    app.run(host='127.0.0.1', port=5001, debug=True)
